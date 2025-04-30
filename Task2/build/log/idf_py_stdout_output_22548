@@ -1,0 +1,49 @@
+[1/998] Generating project_elf_src_esp32.c
+[2/998] Generating C:/Users/adam/Desktop/Emb/LearningESP32/IDF/tab2a/build/esp-idf/esp_system/ld/memory.ld linker script...
+[3/998] Generating C:/Users/adam/Desktop/Emb/LearningESP32/IDF/tab2a/build/esp-idf/esp_system/ld/sections.ld.in linker script...
+[4/998] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_parse.c.obj
+[5/998] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_main.c.obj
+[6/998] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_sess.c.obj
+[7/998] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
+[8/998] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_uri.c.obj
+[9/998] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_ws.c.obj
+[10/998] Building C object esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
+[11/998] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.c.obj
+[12/998] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_txrx.c.obj
+[13/998] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
+[14/998] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\adam\Desktop\Emb\LearningESP32\IDF\tab2a\build\esp-idf\main && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/spiffs/spiffsgen.py 0x100000 C:/Users/adam/Desktop/Emb/LearningESP32/IDF/tab2a/partition C:/Users/adam/Desktop/Emb/LearningESP32/IDF/tab2a/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len"
+FAILED: esp-idf/main/CMakeFiles/spiffs_storage_bin C:/Users/adam/Desktop/Emb/LearningESP32/IDF/tab2a/build/esp-idf/main/CMakeFiles/spiffs_storage_bin 
+C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\adam\Desktop\Emb\LearningESP32\IDF\tab2a\build\esp-idf\main && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/spiffs/spiffsgen.py 0x100000 C:/Users/adam/Desktop/Emb/LearningESP32/IDF/tab2a/partition C:/Users/adam/Desktop/Emb/LearningESP32/IDF/tab2a/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len"
+Traceback (most recent call last):
+  File "C:\Espressif\frameworks\esp-idf-v5.4.1-2\components\spiffs\spiffsgen.py", line 590, in <module>
+    main()
+  File "C:\Espressif\frameworks\esp-idf-v5.4.1-2\components\spiffs\spiffsgen.py", line 567, in main
+    raise RuntimeError('given base directory %s does not exist' % args.base_dir)
+RuntimeError: given base directory C:/Users/adam/Desktop/Emb/LearningESP32/IDF/tab2a/partition does not exist
+[15/998] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj
+[16/998] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj
+[17/998] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
+[18/998] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj
+[19/998] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
+[20/998] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj
+[21/998] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c.obj
+[22/998] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj
+[23/998] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj
+[24/998] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub_xtensa.c.obj
+[25/998] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
+[26/998] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexception.S.obj
+[27/998] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.obj
+[28/998] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj
+[29/998] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj
+[30/998] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+factory,app,factory,0x10000,1M,
+storage,data,spiffs,0x110000,1M,
+*******************************************************************************
+[31/998] Linking C static library esp-idf\esp_https_ota\libesp_https_ota.a
+ninja: build stopped: subcommand failed.

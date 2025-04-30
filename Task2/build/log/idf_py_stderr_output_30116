@@ -1,0 +1,10 @@
+CMake Error at C:/Espressif/frameworks/esp-idf-v5.4.1-2/tools/cmake/build.cmake:318 (message):
+  Failed to resolve component 'esp_flash' required by component 'main':
+  unknown name.
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.4.1-2/tools/cmake/build.cmake:361 (__build_resolve_and_add_req)
+  C:/Espressif/frameworks/esp-idf-v5.4.1-2/tools/cmake/build.cmake:665 (__build_expand_requirements)
+  C:/Espressif/frameworks/esp-idf-v5.4.1-2/tools/cmake/project.cmake:717 (idf_build_process)
+  CMakeLists.txt:9 (project)
+
+

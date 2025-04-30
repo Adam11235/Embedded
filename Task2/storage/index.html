@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP32 Sensor Monitor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: sans-serif; text-align: center; }
+        #sensorValue { font-size: 2em; font-weight: bold; color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Odczyt z Czujnika ESP32</h1>
+    <p>Aktualna wartość ADC: <span id="sensorValue">Ładowanie...</span></p>
+
+    <script>
+        function updateSensorValue() {
+            fetch('/data') // Wywołaj endpoint z danymi JSON
+                .then(response => response.json())
+                .then(data => {
+                    // Aktualizuj wartość na stronie
+                    document.getElementById('sensorValue').innerText = data.adcValue;
+                })
+                .catch(error => {
+                    console.error('Błąd pobierania danych:', error);
+                    document.getElementById('sensorValue').innerText = 'Błąd';
+                });
+        }
+
+        // Aktualizuj co 2 sekundy
+        setInterval(updateSensorValue, 2000);
+
+        // Pobierz wartość od razu po załadowaniu strony
+        window.onload = updateSensorValue;
+    </script>
+</body>
+</html>
