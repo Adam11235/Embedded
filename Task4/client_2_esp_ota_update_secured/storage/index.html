@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 OTA & Control (SPIFFS)</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5; /* Light grey background */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .container {
+            background-color: #ffffff; /* White container background */
+            padding: 25px 30px;
+            border-radius: 12px; /* Softer rounded corners */
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* More pronounced shadow */
+            display: inline-block;
+            max-width: 550px; /* Slightly wider */
+            width: 90%;
+            text-align: left; /* Align text to left within container */
+        }
+        h1 {
+            color: #0056b3; /* Darker blue for heading */
+            text-align: center; /* Center the main heading */
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        h2 {
+            color: #007bff; /* Primary blue for subheadings */
+            border-bottom: 2px solid #eee; /* Subtle separator */
+            padding-bottom: 8px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        p {
+            font-size: 1.05em; /* Slightly larger paragraph text */
+            margin-bottom: 10px;
+        }
+        label {
+            font-weight: 600; /* Slightly bolder labels */
+            margin-top: 15px;
+            display: block;
+            color: #555; /* Dark grey for labels */
+        }
+        input[type='text'],
+        input[type='url'] {
+            width: calc(100% - 24px); /* Adjust for padding */
+            padding: 12px; /* More padding */
+            margin-top: 8px;
+            margin-bottom: 15px; /* Space below input */
+            border: 1px solid #ccc; /* Lighter border */
+            border-radius: 6px; /* Softer corners for inputs */
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+        input[type='text']:focus,
+        input[type='url']:focus {
+            border-color: #007bff; /* Highlight focus */
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); /* Focus ring */
+            outline: none;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px; /* More padding for buttons */
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            margin-top: 10px;
+            transition: background-color 0.2s ease-in-out, transform 0.1s ease; /* Smooth transitions */
+        }
+        button:hover {
+            background-color: #0056b3; /* Darker on hover */
+            transform: translateY(-1px); /* Slight lift on hover */
+        }
+        button:active {
+            transform: translateY(0px); /* Button press effect */
+        }
+        .section {
+            margin-top: 20px;
+            /* Removed border-top for cleaner look, h2 has border-bottom */
+            padding-top: 0; /* Adjusted padding */
+        }
+        .message {
+            margin-top: 20px; /* More space above status message */
+            padding: 12px 15px;
+            border-radius: 6px;
+            min-height: 24px; /* Ensure it has some height even when empty */
+            font-size: 0.95em;
+            text-align: center; /* Center text in status messages */
+        }
+        .success {
+            background-color: #d1e7dd; /* Softer success green */
+            color: #0f5132;
+            border: 1px solid #badbcc;
+        }
+        .error {
+            background-color: #f8d7da; /* Softer error red */
+            color: #842029;
+            border: 1px solid #f5c2c7;
+        }
+        .info {
+            background-color: #cff4fc; /* Softer info blue */
+            color: #055160;
+            border: 1px solid #b6effb;
+        }
+        strong { /* Style for dynamic data like version and message */
+            color: #28a745; /* Green for positive emphasis */
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #e0e0e0; /* Lighter horizontal rule */
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ESP32 Control Panel</h1>
+        <p>Firmware Version: <strong id="firmwareVersion">Loading...</strong></p>
+        <hr>
+
+        <div class="section">
+            <h2>Custom Message</h2>
+            <p>Current Message: <strong id="displayMessage">Loading...</strong></p>
+            <label for="customMessageInput">Update Message:</label>
+            <input type="text" id="customMessageInput" name="customMessageInput" placeholder="Enter new message here">
+            <button onclick="updateMessage()">Update Message</button>
+        </div>
+
+        <div class="section ota-section">
+            <h2>Firmware OTA Update</h2>
+            <label for="firmwareUrlInput">Firmware URL (.bin):</label>
+            <input type="url" id="firmwareUrlInput" name="firmwareUrlInput" placeholder="e.g., http://yourserver.com/firmware.bin">
+            <button onclick="triggerOta()">Start OTA Update</button>
+        </div>
+
+        <div id="statusMessage" class="message"></div> </div>
+
+    <script>
+        // Get references to DOM elements
+        const firmwareVersionEl = document.getElementById('firmwareVersion');
+        const displayMessageEl = document.getElementById('displayMessage');
+        const customMessageInputEl = document.getElementById('customMessageInput');
+        const firmwareUrlInputEl = document.getElementById('firmwareUrlInput');
+        const statusMessageEl = document.getElementById('statusMessage');
+
+        /**
+         * Displays a status message to the user.
+         * @param {string} text - The message text.
+         * @param {string} type - The type of message ('success', 'error', 'info').
+         */
+        function showStatusMessage(text, type) {
+            statusMessageEl.textContent = text;
+            statusMessageEl.className = 'message ' + type; // e.g., 'message success'
+            // Clear the message after a delay
+            setTimeout(() => {
+                statusMessageEl.textContent = '';
+                statusMessageEl.className = 'message';
+            }, 7000); // Message visible for 7 seconds
+        }
+
+        /**
+         * Fetches the current status (firmware version, custom message) from the ESP32.
+         */
+        async function fetchStatus() {
+            try {
+                const response = await fetch('/api/status'); // API endpoint on ESP32
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                const data = await response.json();
+                firmwareVersionEl.textContent = data.firmware_version || 'N/A';
+                displayMessageEl.textContent = data.custom_message || 'Not set';
+            } catch (error) {
+                console.error('Error fetching status:', error);
+                firmwareVersionEl.textContent = 'Error';
+                displayMessageEl.textContent = 'Error';
+                showStatusMessage('Failed to load status from ESP32. Check connection.', 'error');
+            }
+        }
+
+        /**
+         * Sends a request to update the custom message on the ESP32.
+         */
+        async function updateMessage() {
+            const newMessage = customMessageInputEl.value.trim();
+            if (!newMessage) {
+                showStatusMessage('Custom message cannot be empty.', 'error');
+                return;
+            }
+            showStatusMessage('Updating message...', 'info'); // Provide immediate feedback
+
+            try {
+                const response = await fetch('/update-message', { // API endpoint on ESP32
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: 'message=' + encodeURIComponent(newMessage)
+                });
+
+                if (!response.ok) {
+                    const errorText = await response.text(); // Get more error details if available
+                    throw new Error(`HTTP error! Status: ${response.status} - ${errorText}`);
+                }
+                const data = await response.json(); // ESP32 should send back the updated status
+                displayMessageEl.textContent = data.custom_message || 'Not set';
+                customMessageInputEl.value = ''; // Clear the input field
+                showStatusMessage('Message updated successfully!', 'success');
+            } catch (error) {
+                console.error('Error updating message:', error);
+                showStatusMessage(`Failed to update message: ${error.message}`, 'error');
+            }
+        }
+
+        /**
+         * Sends a request to trigger an OTA update on the ESP32.
+         */
+        async function triggerOta() {
+            const firmwareUrl = firmwareUrlInputEl.value.trim();
+            if (!firmwareUrl) {
+                showStatusMessage('Firmware URL cannot be empty.', 'error');
+                return;
+            }
+            // Basic URL validation
+            if (!firmwareUrl.startsWith('http://') && !firmwareUrl.startsWith('https://')) {
+                showStatusMessage('Please enter a valid URL (must start with http:// or https://).', 'error');
+                return;
+            }
+
+            showStatusMessage('Initiating OTA update... The ESP32 will attempt to download and reboot. Monitor device LEDs or serial output for progress.', 'info');
+
+            try {
+                const response = await fetch('/ota', { // API endpoint on ESP32
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: 'url=' + encodeURIComponent(firmwareUrl)
+                });
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    throw new Error(`OTA trigger failed: ${errorText} (Status: ${response.status})`);
+                }
+                // If OTA is successfully initiated, ESP32 might not send a detailed success response before rebooting.
+                const successText = await response.text(); // Get text response from server
+                showStatusMessage(successText || 'OTA process initiated. Device will reboot upon successful update.', 'success');
+                firmwareUrlInputEl.value = ''; // Clear the URL input
+            } catch (error) {
+                console.error('Error triggering OTA:', error);
+                showStatusMessage(error.message, 'error');
+            }
+        }
+
+        // Fetch the initial status when the page loads
+        document.addEventListener('DOMContentLoaded', fetchStatus);
+    </script>
+</body>
+</html>

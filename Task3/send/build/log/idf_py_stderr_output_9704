@@ -1,0 +1,1445 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM12 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM12 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+[0m
+[0;33m--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+[0m
+[0;33m--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+[0m
+[0;33m--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+[0m
+[0;33m--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+[0m
+[0;33m--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+--- 0x400d8968: app_main at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:270
+--- 0x4014cadb: main_task at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/app_startup.c:208
+--- 0x40089891: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8784: wifi_init_softap at C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/main/sender.c:206 (discriminator 1)
+[0m
+[0;33m--- 0x40088f4b: _esp_error_check_failed at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/esp_err.c:49
+[0m
+[0;33m--- 0x40081a6d: panic_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/panic.c:454
+--- 0x40088f55: esp_system_abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/esp_system/port/esp_system_chip.c:87
+--- 0x4008fc31: abort at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/newlib/abort.c:38
+--- 0x40088f4b: _esp_error_check_failed at C:/Espressif

@@ -1,0 +1,26 @@
+{
+    "write_flash_args" : [ "--flash_mode", "dio",
+                           "--flash_size", "4MB",
+                           "--flash_freq", "40m" ],
+    "flash_settings" : {
+        "flash_mode": "dio",
+        "flash_size": "4MB",
+        "flash_freq": "40m"
+    },
+    "flash_files" : {
+        "0x20000" : "securedOTA.bin",
+        "0xe000" : "partition_table/partition-table.bin",
+        "0x19000" : "ota_data_initial.bin",
+        "0x320000" : "storage.bin"
+    },
+    "app" : { "offset" : "0x20000", "file" : "securedOTA.bin", "encrypted" : "false" },
+    "partition-table" : { "offset" : "0xe000", "file" : "partition_table/partition-table.bin", "encrypted" : "false" },
+    "otadata" : { "offset" : "0x19000", "file" : "ota_data_initial.bin", "encrypted" : "false" },
+    "storage" : { "offset" : "0x320000", "file" : "storage.bin", "encrypted" : "false" },
+    "extra_esptool_args" : {
+        "after"  : "no_reset",
+        "before" : "default_reset",
+        "stub"   : true,
+        "chip"   : "esp32"
+    }
+}

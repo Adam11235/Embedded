@@ -1,0 +1,134 @@
+OOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  9 2025 10:47:03[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00010000 00009000[0m
+[0;32mI (66) boot:  1 otadata          OTA data         01 00 00019000 00002000[0m
+[0;32mI (73) boot:  2 phy_init         RF data          01 01 0001b000 00001000[0m
+[0;32mI (79) boot:  3 factory          factory app      00 00 00020000 00100000[0m
+[0;32mI (86) boot:  4 ota_0            OTA app          00 10 00120000 00100000[0m
+[0;32mI (92) boot:  5 ota_1            OTA app          00 11 00220000 00100000[0m
+[0;32mI (99) boot:  6 storage          Unknown data     01 82 00320000 00080000[0m
+[0;32mI (105) boot: End of partition table[0m
+[0;32mI (109) boot: Defaulting to factory image[0m
+[0;32mI (112) esp_image: segment 0: paddr=00020020 vaddr=3f400020 size=2101ch (135196) map[0m
+[0;32mI (166) esp_image: segment 1: paddr=00041044 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (166) esp_image: segment 2: paddr=00041068 vaddr=3ffb0000 size=03f44h ( 16196) load[0m
+[0;32mI (176) esp_image: segment 3: paddr=00044fb4 vaddr=40080000 size=0b064h ( 45156) load[0m
+[0;32mI (195) esp_image: segment 4: paddr=00050020 vaddr=400d0020 size=ae2d4h (713428) map[0m
+[0;32mI (439) esp_image: segment 5: paddr=000fe2fc vaddr=4008b064 size=0c8b4h ( 51380) load[0m
+[0;32mI (470) boot: Loaded app from partition at offset 0x20000[0m
+[0;32mI (471) boot: Disabling RNG early entropy source...[0m
+[0;32mI (481) cpu_start: Multicore app[0m
+[0;32mI (489) cpu_start: Pro cpu start user code[0m
+[0;32mI (489) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (489) app_init: Application information:[0m
+[0;32mI (490) app_init: Project name:     securedOTA[0m
+[0;32mI (494) app_init: App version:      1[0m
+[0;32mI (497) app_init: Compile time:     May  9 2025 10:46:53[0m
+[0;32mI (502) app_init: ELF file SHA256:  456b317b0...[0m
+[0;32mI (506) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (510) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (514) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (518) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (522) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (528) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (533) heap_init: At 3FFB87E0 len 00027820 (158 KiB): DRAM[0m
+[0;32mI (539) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (544) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (549) heap_init: At 40097918 len 000086E8 (33 KiB): IRAM[0m
+[0;32mI (556) spi_flash: detected chip: generic[0m
+[0;32mI (558) spi_flash: flash io: dio[0m
+[0;32mI (563) main_task: Started on CPU0[0m
+[0;32mI (573) main_task: Calling app_main()[0m
+[0;32mI (583) ota_app_spiffs: NVS not initialized or key not found. Using default message.[0m
+[0;32mI (583) ota_app_spiffs: Initializing SPIFFS[0m
+[0;32mI (623) ota_app_spiffs: Partition size: total: 474641, used: 12048[0m
+[0;32mI (623) ota_app_spiffs: Running partition: factory. Firmware Version: 1.0.0[0m
+[0;32mI (643) wifi:wifi driver task: 3ffc1160, prio:23, stack:6656, core=0[0m
+[0;32mI (643) wifi:wifi firmware version: 79fa3f41ba[0m
+[0;32mI (643) wifi:wifi certification version: v7.0[0m
+[0;32mI (643) wifi:config NVS flash: enabled[0m
+[0;32mI (643) wifi:config nano formatting: disabled[0m
+[0;32mI (653) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (653) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (663) wifi:Init management short buffer num: 32[0m
+[0;32mI (663) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (663) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (673) wifi:Init static rx buffer num: 10[0m
+[0;32mI (673) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (683) wifi_init: rx ba win: 6[0m
+[0;32mI (683) wifi_init: accept mbox: 6[0m
+[0;32mI (683) wifi_init: tcpip mbox: 32[0m
+[0;32mI (683) wifi_init: udp mbox: 6[0m
+[0;32mI (693) wifi_init: tcp mbox: 6[0m
+[0;32mI (693) wifi_init: tcp tx win: 5760[0m
+[0;32mI (693) wifi_init: tcp rx win: 5760[0m
+[0;32mI (703) wifi_init: tcp mss: 1440[0m
+[0;32mI (703) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (703) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (973) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07[0m
+[0;33mW (973) phy_init: failed to load RF calibration data (0x1102), falling back to full calibration[0m
+[0;32mI (1053) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(2)[0m
+[0;32mI (1063) wifi:mode : softAP (f4:65:0b:54:ff:31)[0m
+[0;32mI (1073) wifi:Total power save buffer number: 16[0m
+[0;32mI (1073) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (1073) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (1083) ota_app_spiffs: wifi_init_softap finished. SSID:'MySimpleESP_AP' password:'simplepass123' channel:6 max_conn:2[0m
+[0;32mI (1083) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (1093) ota_app_spiffs: AP IP Address: 192.168.4.1[0m
+[0;32mI (1103) ota_app_spiffs: Starting HTTP server on port: '80'[0m
+[0;32mI (1113) ota_app_spiffs: ESP32 OTA Signed App (SPIFFS) Initialized. Connect to AP: 'MySimpleESP_AP'[0m
+[0;32mI (1113) main_task: Returned from app_main()[0m
+[0;32mI (100303) wifi:new:<6,1>, old:<6,1>, ap:<6,1>, sta:<255,255>, prof:6, snd_ch_cfg:0x0[0m
+[0;32mI (100303) wifi:station: 28:d0:43:ac:b3:d8 join, AID=1, bgn, 40U[0m
+[0;32mI (100333) ota_app_spiffs: Station connected[0m
+[0;32mI (100403) wifi:<ba-add>idx:2 (ifx:1, 28:d0:43:ac:b3:d8), tid:0, ssn:3, winSize:64[0m
+[0;32mI (100463) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (153023) ota_app_spiffs: Serving file: /spiffs/index.html[0m
+[0;32mI (153063) ota_app_spiffs: File sending complete: /spiffs/index.html[0m
+[0;32mI (153133) ota_app_spiffs: /api/status called[0m
+[0;33mW (153193) httpd_uri: httpd_uri: URI '/favicon.ico' not found[0m
+[0;33mW (153193) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;32mI (157253) ota_app_spiffs: Serving file: /spiffs/index.html[0m
+[0;32mI (157303) ota_app_spiffs: File sending complete: /spiffs/index.html[0m
+[0;32mI (157333) ota_app_spiffs: /api/status called[0m
+[0;32mI (166613) ota_app_spiffs: /update-message called, content_len: 20[0m
+[0;32mI (166613) ota_app_spiffs: Extracted message for update: 'ota%20update'[0m
+[0;32mI (166613) ota_app_spiffs: Custom message saved to NVS: ota%20update[0m
+[0;32mI (166623) ota_app_spiffs: /api/status called[0m
+[0;32mI (174383) ota_app_spiffs: /update-message called, content_len: 11[0m
+[0;32mI (174383) ota_app_spiffs: Extracted message for update: 'lol'[0m
+[0;32mI (174393) ota_app_spiffs: Custom message saved to NVS: lol[0m
+[0;32mI (174393) ota_app_spiffs: /api/status called[0m
+[0;32mI (181303) ota_app_spiffs: /update-message called, content_len: 10[0m
+[0;32mI (181313) ota_app_spiffs: Extracted message for update: 'xd'[0m
+[0;32mI (181323) ota_app_spiffs: Custom message saved to NVS: xd[0m
+[0;32mI (181323) ota_app_spiffs: /api/status called[0m

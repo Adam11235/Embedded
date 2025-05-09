@@ -1,0 +1,172 @@
+BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloa�ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  6 2025 11:24:01[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00005000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000e000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot:  3 storage          Unknown data     01 82 00310000 00080000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (89) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1e7f4h (124916) map[0m
+[0;32mI (139) esp_image: segment 1: paddr=0002e81c vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (139) esp_image: segment 2: paddr=0002e840 vaddr=3ffb0000 size=017d8h (  6104) load[0m
+[0;32mI (145) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=a88f4h (690420) map[0m
+[0;32mI (386) esp_image: segment 4: paddr=000d891c vaddr=3ffb17d8 size=0274ch ( 10060) load[0m
+[0;32mI (390) esp_image: segment 5: paddr=000db070 vaddr=40080000 size=17798h ( 96152) load[0m
+[0;32mI (439) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (439) boot: Disabling RNG early entropy source...[0m
+[0;32mI (450) cpu_start: Multicore app[0m
+[0;32mI (458) cpu_start: Pro cpu start user code[0m
+[0;32mI (458) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (458) app_init: Application information:[0m
+[0;32mI (458) app_init: Project name:     sender[0m
+[0;32mI (462) app_init: App version:      1[0m
+[0;32mI (465) app_init: Compile time:     May  6 2025 11:23:53[0m
+[0;32mI (470) app_init: ELF file SHA256:  955cf968b...[0m
+[0;32mI (475) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (478) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (482) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (486) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (490) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (497) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (502) heap_init: At 3FFB87B8 len 00027848 (158 KiB): DRAM[0m
+[0;32mI (507) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (512) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (518) heap_init: At 40097798 len 00008868 (34 KiB): IRAM[0m
+[0;32mI (524) spi_flash: detected chip: generic[0m
+[0;32mI (527) spi_flash: flash io: dio[0m
+[0;32mI (531) main_task: Started on CPU0[0m
+[0;32mI (541) main_task: Calling app_main()[0m
+[0;32mI (551) sender: NVS initialized.[0m
+[0;32mI (551) sender: ESP_WIFI_MODE_AP - Initializing SoftAP[0m
+[0;32mI (571) wifi:wifi driver task: 3ffc0388, prio:23, stack:6656, core=0[0m
+[0;32mI (581) wifi:wifi firmware version: 79fa3f41ba[0m
+[0;32mI (581) wifi:wifi certification version: v7.0[0m
+[0;32mI (581) wifi:config NVS flash: enabled[0m
+[0;32mI (581) wifi:config nano formatting: disabled[0m
+[0;32mI (581) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (591) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (591) wifi:Init management short buffer num: 32[0m
+[0;32mI (591) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (601) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (601) wifi:Init static rx buffer num: 10[0m
+[0;32mI (611) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (611) wifi_init: rx ba win: 6[0m
+[0;32mI (611) wifi_init: accept mbox: 6[0m
+[0;32mI (621) wifi_init: tcpip mbox: 32[0m
+[0;32mI (621) wifi_init: udp mbox: 6[0m
+[0;32mI (621) wifi_init: tcp mbox: 6[0m
+[0;32mI (621) wifi_init: tcp tx win: 5760[0m
+[0;32mI (631) wifi_init: tcp rx win: 5760[0m
+[0;32mI (631) wifi_init: tcp mss: 1440[0m
+[0;32mI (631) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (641) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (911) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07[0m
+[0;32mI (1001) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (1021) wifi:mode : softAP (f4:65:0b:54:ff:31)[0m
+[0;32mI (1031) wifi:Total power save buffer number: 16[0m
+[0;32mI (1031) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (1031) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (1031) sender: wifi_init_softap finished. SSID:NadawcaOTA password:password123 channel:1[0m
+[0;32mI (1031) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (1051) sender: WiFi AP started[0m
+[0;32mI (1051) sender: Sending data: {"toggle":false,"message":"Message #0"}[0m
+[0;32mI (1061) sender: Initializing SPIFFS[0m
+[0;32mI (1101) sender: SPIFFS Partition size: total: 474641, used: 0[0m
+[0;32mI (1141) sender: File written to /spiffs/hello.txt[0m
+[0;32mI (1141) sender: Sender initialization complete. Waiting for AP to start and data task to run.[0m
+[0;32mI (1141) main_task: Returned from app_main()[0m
+[1;31mE (6071) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (6071) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (6071) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (6071) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (6071) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (11081) sender: Sending data: {"toggle":true,"message":"Message #1"}[0m
+[1;31mE (16091) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (16091) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (16091) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (16091) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (16091) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (21101) sender: Sending data: {"toggle":false,"message":"Message #2"}[0m
+[1;31mE (26111) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (26111) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (26111) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (26111) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (26111) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (31121) sender: Sending data: {"toggle":true,"message":"Message #3"}[0m
+[1;31mE (36131) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (36131) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (36131) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (36131) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (36131) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (41141) sender: Sending data: {"toggle":false,"message":"Message #4"}[0m
+[1;31mE (46151) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (46151) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (46151) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (46151) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (46151) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (51161) sender: Sending data: {"toggle":true,"message":"Message #5"}[0m
+[1;31mE (56171) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (56171) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (56171) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (56171) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (56171) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (61181) sender: Sending data: {"toggle":false,"message":"Message #6"}[0m
+[1;31mE (66191) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (66191) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (66191) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (66191) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (66191) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (71201) sender: Sending data: {"toggle":true,"message":"Message #7"}[0m
+[1;31mE (76211) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (76211) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (76211) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (76211) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (76211) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (81221) sender: Sending data: {"toggle":false,"message":"Message #8"}[0m
+[1;31mE (86231) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (86231) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (86231) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (86231) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (86231) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (91241) sender: Sending data: {"toggle":true,"message":"Message #9"}[0m
+[1;31mE (96251) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (96251) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (96251) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (96251) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (96251) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (101261) sender: Sending data: {"toggle":false,"message":"Message #10"}[0m
+[1;31mE (106271) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (106271) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (106271) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (106271) sender: HTTP_EVENT_ERROR: ESP_OK[0m
+[1;31mE (106271) sender: HTTP POST request failed: ESP_ERR_HTTP_CONNECT[0m
+[0;32mI (111281) sender: Sending data: {"toggle":true,"message":"Message #11"}[0m

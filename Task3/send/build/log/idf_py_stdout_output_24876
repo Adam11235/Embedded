@@ -1,0 +1,18 @@
+[1/10] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\adam\Desktop\Emb\LearningESP32\IDF\working_with_ota\send\build\esp-idf\main && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/spiffs/spiffsgen.py 0x80000 C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/storage C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/build/storage.bin --page-size=256 --obj-name-len=32 --meta-len=4 --use-magic --use-magic-len"
+[2/10] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\adam\Desktop\Emb\LearningESP32\IDF\working_with_ota\send\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6580 bytes. 0xa80 bytes (9%) free.
+[3/10] No install step for 'bootloader'
+[4/10] Completed 'bootloader'
+[5/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/sender.c.obj
+[6/10] Linking C static library esp-idf\main\libmain.a
+[7/10] Generating ld/sections.ld
+[8/10] Linking CXX executable sender.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/build/sender.bin
+[10/10] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\adam\Desktop\Emb\LearningESP32\IDF\working_with_ota\send\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/build/partition_table/partition-table.bin C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/send/build/sender.bin"
+sender.bin binary size 0xe2830 bytes. Smallest app partition is 0x100000 bytes. 0x1d7d0 bytes (12%) free.

@@ -1,0 +1,27 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM12 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM12 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Odmowa dostępu.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008d178: cache_ll_l1_disable_cache at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/hal/esp32/include/hal/cache_ll.h:54 (discriminator 1)
+---  (inlined by) cache_hal_suspend at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/hal/esp32/cache_hal_esp32.c:25 (discriminator 1)
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Odmowa dostępu.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x4008d178: cache_ll_l1_disable_cache at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/hal/esp32/include/hal/cache_ll.h:54 (discriminator 1)
+---  (inlined by) cache_hal_suspend at C:/Espressif/frameworks/esp-idf-v5.4.1-2/components/hal/esp32/cache_hal_esp32.c:25 (discriminator 1)
+[0m
+[0m

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/CMakeFiles/bootloader
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/CMakeFiles/bootloader.rule
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/CMakeFiles/bootloader-complete.rule
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/adam/Desktop/Emb/LearningESP32/IDF/ota_bin/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

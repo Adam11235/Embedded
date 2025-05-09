@@ -1,0 +1,69 @@
+de:DIO, clo      Type ST Offset   Length
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00010000 00009000[0m
+[0;32mI (66) boot:  1 otadata          OTA data         01 00 00019000 00002000[0m
+[0;32mI (73) boot:  2 phy_init         RF data�ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  9 2025 12:11:57[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00010000 00009000[0m
+[0;32mI (66) boot:  1 otadata          OTA data         01 00 00019000 00002000[0m
+[0;32mI (73) boot:  2 phy_init         RF data          01 01 0001b000 00001000[0m
+[0;32mI (79) boot:  3 factory          factory app      00 00 00020000 00100000[0m
+[0;32mI (86) boot:  4 ota_0            OTA app          00 10 00120000 00100000[0m
+[0;32mI (92) boot:  5 ota_1            OTA app          00 11 00220000 00100000[0m
+[0;32mI (99) boot:  6 storage          Unknown data     01 82 00320000 00080000[0m
+[0;32mI (105) boot: End of partition table[0m
+[0;32mI (109) boot: Defaulting to factory image[0m
+[0;32mI (112) esp_image: segment 0: paddr=00020020 vaddr=3f400020 size=0a0bch ( 41148) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=0002a0e4 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (134) esp_image: segment 2: paddr=0002a108 vaddr=3ffb0000 size=02314h (  8980) load[0m
+[0;32mI (141) esp_image: segment 3: paddr=0002c424 vaddr=40080000 size=03bf4h ( 15348) load[0m
+[0;32mI (151) esp_image: segment 4: paddr=00030020 vaddr=400d0020 size=14604h ( 83460) map[0m
+[0;32mI (181) esp_image: segment 5: paddr=0004462c vaddr=40083bf4 size=09040h ( 36928) load[0m
+[0;32mI (202) boot: Loaded app from partition at offset 0x20000[0m
+[0;32mI (202) boot: Disabling RNG early entropy source...[0m
+[0;32mI (213) cpu_start: Multicore app[0m
+[0;32mI (221) cpu_start: Pro cpu start user code[0m
+[0;32mI (221) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (221) app_init: Application information:[0m
+[0;32mI (221) app_init: Project name:     binarka[0m
+[0;32mI (225) app_init: App version:      1[0m
+[0;32mI (228) app_init: Compile time:     May  9 2025 12:11:39[0m
+[0;32mI (233) app_init: ELF file SHA256:  ff7a88ee8...[0m
+[0;32mI (238) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (242) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (245) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (249) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (254) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (260) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFB2BD0 len 0002D430 (181 KiB): DRAM[0m
+[0;32mI (270) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (275) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (281) heap_init: At 4008CC34 len 000133CC (76 KiB): IRAM[0m
+[0;32mI (288) spi_flash: detected chip: generic[0m
+[0;32mI (290) spi_flash: flash io: dio[0m
+[0;32mI (293) main_task: Started on CPU0[0m
+[0;32mI (303) main_task: Calling app_main()[0m
+[0;32mI (303) led_blink_app: Initializing LED Blink Application - Version: 2.0.0_LED_Blink[0m
+[0;32mI (303) led_blink_app: This firmware is intended for OTA update.[0m
+[0;32mI (303) led_blink_app: Targeting GPIO: 2[0m
+[0;32mI (313) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (323) led_blink_app: GPIO configured. Starting blink loop.[0m

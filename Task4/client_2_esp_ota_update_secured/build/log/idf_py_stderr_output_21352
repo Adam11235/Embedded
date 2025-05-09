@@ -1,0 +1,1 @@
+ninja: error: 'C:/Users/adam/Desktop/Emb/LearningESP32/IDF/working_with_ota/client_2_esp_ota_update_secured/signature_key.pem', needed by 'signature_verification_key.bin', missing and no known rule to make it
